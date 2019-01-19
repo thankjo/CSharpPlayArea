@@ -10,7 +10,13 @@ namespace CSharp.Strings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("The Start");
+            Console.WriteLine("Starting the String Manipulations");
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+
+            BasicStringOperations.SplitWord();
+            BasicStringOperations.SplitSentence();
+            BasicStringOperations.SplitNames();
+
             Console.ReadLine();
         }
     }

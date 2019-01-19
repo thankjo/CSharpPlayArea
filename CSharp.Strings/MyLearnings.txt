@@ -1,0 +1,1 @@
+﻿#Splitting into words, sentences.. trimming and To upper case and lower case
