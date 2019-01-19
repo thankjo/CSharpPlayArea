@@ -42,5 +42,24 @@ namespace CSharp.Strings
 
             }
         }
+
+        public static void Makesentence()
+        {
+            Console.WriteLine("This is making sentences from words");
+            Console.WriteLine("***********************");
+            string data = "Dora,London,12345";
+            string[] values = data.Split(',');
+            Console.WriteLine("Hello. I am "+values[0]+". I am from " + values[1]+". You can reach me @ " + values[2] + ".");
+        }
+
+        public static void PublishAddress()
+        {
+            string name = "Chacko Mash";
+            string address = "Spadikam";
+            string mob = "9009090";
+            string output = String.Format("This is {0} from {1}. Reach me @ {2}", name, address, mob);
+            Console.WriteLine(output);
+            //Console.WriteLine("This is {0} from {1}. Reach me @ {3}", name, address, mob);
+        }
     }
 }

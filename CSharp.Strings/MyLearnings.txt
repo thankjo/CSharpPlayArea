@@ -1,1 +1,2 @@
-﻿#Splitting into words, sentences.. trimming and To upper case and lower case
+﻿#learn : Splitting into words, sentences.. trimming and To upper case and lower case
+#learn : Static Functions can be called by Class.FunctionName with access modifiers as public

@@ -13,9 +13,13 @@ namespace CSharp.Strings
             Console.WriteLine("Starting the String Manipulations");
             Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 
-            BasicStringOperations.SplitWord();
-            BasicStringOperations.SplitSentence();
-            BasicStringOperations.SplitNames();
+            //BasicStringOperations.SplitWord();
+            //BasicStringOperations.SplitSentence();
+            //BasicStringOperations.SplitNames();
+            BasicStringOperations.Makesentence();
+            BasicStringOperations.PublishAddress();
+
+
 
             Console.ReadLine();
         }
