@@ -10,6 +10,8 @@ namespace CSharp.Strings
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("The Start");
+            Console.ReadLine();
         }
     }
 }
