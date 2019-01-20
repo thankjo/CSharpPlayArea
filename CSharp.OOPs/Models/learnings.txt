@@ -1,0 +1,3 @@
+﻿# Model Class : Model class is used for holding data . Like int a =10 (here 10 is the data);
+                For Ex : Employee Class will hold employee data like name , employee id , address etc.
+# Property  : Is used for set value to a variable using 'value' keyword . Also the value can be accessed using return types.
