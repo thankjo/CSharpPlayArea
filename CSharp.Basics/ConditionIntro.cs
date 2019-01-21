@@ -52,5 +52,4 @@ namespace CSharp.Basics
             Console.WriteLine("{0} is big", output);
         }
     }
-    }
 }
